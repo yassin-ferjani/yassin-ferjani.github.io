@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 8px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.2;
+    word-spacing: 2.5px;
+
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:2rem;
+    padding-top: 2%;
+    background-color: rgb(0, 0, 0);
+    height: 100vh;
+    
+}
+
+div{
+    display: inherit;
+    justify-content: space-between;
+    gap: 3rem;
+    
+
+
+}
+
+.display{
+    display: inherit;
+    flex-direction: inherit;
+    gap: 0;
+    justify-content: end;
+    text-align: end;
+    max-width: 41rem;
+    
+  
+}
+
+p{
+    color: white;
+}
+#equation{
+    font-size: 3rem;
+    height: 3rem;
+   
+    
+}
+
+#result{
+     font-size: 6rem;
+     height: 7.2rem;
+   
+}
+
+input{
+    cursor: pointer;
+    width: 8rem;
+    height: 8rem;
+    border-radius: 4rem;
+    color: aliceblue;
+    font-size: 1.4rem;
+    background-color: rgb(55, 47, 47);
+    font-size: 2.5rem;
+}
+
+input:active{
+    scale: 105%;
+}
+
+.far-right{
+    background-color: rgb(255, 179, 0);
+}
+
+.light-gray{
+    background-color: rgb(164, 164, 164);
+}
+
+.final-row{
+    display: grid;
+    grid-template-columns: 19rem 1fr 1fr;
+}
+
+.final-row > :first-child{
+   grid-row:1/ span2;
+   width: 100%;
+   
+}
+
+.calculator{
+    display: flex;
+    flex-direction: column;
+}
+
+
